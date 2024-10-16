@@ -20,7 +20,7 @@ $inserir = $pdo->prepare($sql);
 // 3º Passo - Tentar executar
 try{
     $inserir->execute();
-    echo "Cadastrado com sucesso";
+    echo "Cadastrado com sucesso"; 
 }catch(PDOException $erro){
     echo "Falha ao inserir!". $erro->getMessage();
 }
