@@ -49,7 +49,10 @@ try{
                 R$ $preco_encontrado <br>
                 Disponível: $estoque_encontrado <br>
                 Categoria: $categoria_encontrada<br><br>
-                <button> ✏️Editar</button>
+                <a href='formulario_editar.php?cod=$id_encontrado'>
+                   <button>✏️Editar</button>
+                </a>
+
                 <a href='confirmar.php?cod=$id_encontrado'>
                     <button>🗑️Deletar</button>
                 </a>
