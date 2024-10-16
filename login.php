@@ -19,9 +19,9 @@
                        placeholder="Digite sua senha">
                 <br><br>
                 <?php
-                    echo isset($_GET['erro1'])?"Usuario/senha incorretos":"";
-                    echo isset($_GET['erro2'])?"Você desconectou!":"";
-                    echo isset($_GET['erro3'])?"Você precisa estar logado!":"";
+                    echo isset($_GET['erro1'])?"<h4>Usuario/senha incorretos</h4>":"";
+                    echo isset($_GET['erro2'])?"<h4>Você desconectou!</h4>":"";
+                    echo isset($_GET['erro3'])?"<h4>Você precisa estar logado!</h4>":"";
                 ?><br>
                 <button type="submit">Entrar</button>
             </form>

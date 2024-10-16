@@ -37,7 +37,14 @@ body{
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    transition: all 0.5s;
 
+}
+
+.cartoes:hover{
+    transform: scale(1.2);
+    background-color: cornflowerblue;
+    cursor: pointer;
 }
 
 a{
@@ -78,4 +85,24 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+#caixa_login h4{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 15px;
+    animation: anima1 0.2s forwards;
+    animation-iteration-count: 8;
+    animation-direction: alternate;
+}
+
+
+@keyframes anima1 {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
